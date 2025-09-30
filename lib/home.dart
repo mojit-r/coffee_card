@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.brown[200],
             padding: EdgeInsets.all(20),
-            child: StyledBodyText("Hame Hamari Coffee kuch aisa pasand hai"),
+            child: StyledBodyText("Hame Hamari Coffee kuch aisi pasand hai"),
           ),
           Container(
             color: Colors.brown[100],
