@@ -1,16 +1,54 @@
-# coffee_card
+# ☕ Coffee Wale Bhaiya
 
-A new Flutter project.
+A simple and fun Flutter app where you can customize your coffee preferences.  
+Choose the **strength** (represented by coffee beans) and **sugar level** (represented by sugar cubes), and watch your coffee card update instantly!  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Adjust coffee **strength** (1–5 beans).
+- Adjust **sugar levels** (0–5 cubes).
+- Interactive UI with buttons for easy customization.
+- Clean and reusable Flutter widgets:
+  - `StyledButton`
+  - `StyledBodyText`
+  - `CoffeePrefs`
+- Coffee-themed UI with rich colors and background images.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
+```
+lib/
+├── main.dart # Entry point
+├── home.dart # Home screen with app layout
+├── coffee_prefs.dart # Widget to manage coffee strength & sugar
+└── shared/
+├ ├── styled_button.dart # Custom reusable button
+└ └── styled_body_text.dart # Custom styled text
+assets/
+├── img/coffee_bg.jpg # Coffee background image
+├── img/coffee_bean.png # Coffee bean icon
+└── img/sugar_cube.png # Sugar cube icon
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📸 Screenshots
+
+| Home Screen | Strength & Sugar Controls |
+|-------------|---------------------------|
+| <img src="assets/screenshots/homepage.png" height="600" alt="Home Screen"/> | <img src="assets/screenshots/homepage_controls.png" height="600" alt="Homepage Controls"/> |
+
+---
+
+## 🛠️ Built With
+- [Flutter](https://flutter.dev/) – Framework  
+- [Dart](https://dart.dev/) – Language  
+
+---
+
+## 📦 How to Run
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/coffee_project.git
